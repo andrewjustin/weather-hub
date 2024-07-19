@@ -46,7 +46,7 @@ if get_forecast:
     year, month, day = date_input.year, date_input.month, date_input.day
     
     # start by making the link to the wind forecast first because it is the only hazard with the 'adjusted' option
-    wind_link = "https://data.nadocast.com/%d%02d/%d%02d%02d/t%s/nadocast_2022_models_conus_" % (year, month, year, month, day, init_time)
+    wind_link = "http://data.nadocast.com/%d%02d/%d%02d%02d/t%s/nadocast_2022_models_conus_" % (year, month, year, month, day, init_time)
     if sig_haz:
         wind_link += 'sig_'
     wind_link += 'wind_'
