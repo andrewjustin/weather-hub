@@ -31,7 +31,7 @@ FRONT_NAMES = {'CF': 'Cold front', 'WF': 'Warm front', 'SF': 'Stationary front',
                'MERGED-F': 'CF, WF, SF, OF (any)', 'MERGED-T': 'Trough (any)', 'F_BIN': 'Binary front', 'MERGED-F_BIN': 'Binary front (any)'}
 
 # model properties
-model_properties = pd.read_pickle('I:/PycharmProjects/weather-hub/fronts/model_1701_properties.pkl')
+model_properties = pd.read_pickle('./fronts/model_1701_properties.pkl')
 
 # time arguments
 date_input = st.date_input('Select Date', value=dt.datetime(2019, 5, 1), min_value=dt.datetime(2019, 5, 1), max_value=dt.datetime(2019, 5, 31))
