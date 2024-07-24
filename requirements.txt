@@ -2,6 +2,7 @@ branca==0.7.2
 folium==0.17.0
 geojsoncontour==0.4.0
 matplotlib==3.9.1
+netcdf4==1.7.1
 numpy==2.0.1
 pandas==2.2.2
 Requests==2.32.3
